@@ -1,0 +1,97 @@
+  "matchScore": 92,
+  "technicalQuestion": [
+    {
+      "question": "How did you implement JWT-based authentication using HTTP-only cookies in your AI Interview Preparation Platform, and why is this method preferred over localStorage?",
+      "intention": "Assess the candidate's understanding of web security, authentication mechanisms, and hands-on backend implementation details.",
+      "answer": "Explain the role of JSON Web Tokens (JWT) containing encoded user claims and signed with a secret key. Detail how HTTP-only cookies prevent Cross-Site Scripting (XSS) attacks because JavaScript cannot access document.cookie. Mention CSRF considerations and how SameSite attributes or CSRF tokens mitigate them."
+    },
+    {
+      "question": "In your Sorting Visualizer, how did you handle asynchronous state updates or delays to animate sorting algorithms like Quick Sort and Merge Sort without freezing the UI?",
+      "intention": "Evaluate knowledge of JavaScript concurrency, event loop, React re-renders, and algorithm implementation.",
+      "answer": "Describe how JavaScript's single-threaded event loop processes tasks. Explain the use of async/await with Promises wrapping setTimeout to pause between algorithm steps, or using requestAnimationFrame. Highlight how React state updates trigger visual re-renders corresponding to array swaps/comparisons."
+    },
+    {
+      "question": "What is the difference between client-side rendering (CSR) in standard React and server-side rendering (SSR) or static site generation (SSG) in Next.js?",
+      "intention": "Verify the depth of knowledge in React and Next.js rendering architectures.",
+      "answer": "Highlight that React CSR loads a minimal HTML shell and compiles DOM on the client, which can impact initial page load and SEO. Explain how Next.js executes SSR on each request or SSG at build time, sending pre-rendered HTML to improve SEO and Core Web Vitals, followed by hydration."
+    },
+    {
+      "question": "How do you design database schema and indexing strategies in MongoDB to ensure optimal read and write performance?",
+      "intention": "Test database fundamentals, MongoDB schema design, and query optimization techniques.",
+      "answer": "Discuss embedding vs referencing based on relationship types and data access patterns. Explain how compound indexes work, the impact of indexing on write operations, and the use of the explain() command to inspect query execution plans."
+    }
+  ],
+  "behaviouralQuestion": [
+    {
+      "question": "Can you describe a challenging bug or obstacle you encountered while building the AI Interview Platform and how you resolved it?",
+      "intention": "Gauge problem-solving approach, persistence, and debugging methodology.",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). State the specific technical problem (e.g., token expiration, CORS issues, or API rate limits), explain the steps taken to diagnose root causes via logging or debugging tools, and summarize the final fix and learning outcome."
+    },
+    {
+      "question": "How do you prioritize tasks and manage your time when learning a new technology while adhering to project deadlines?",
+      "intention": "Assess adaptability, time management, and self-directed learning capabilities.",
+      "answer": "Detail a structured approach: breaking down complex topics into small milestones, building minimal proof-of-concept projects, leveraging official documentation, and balancing learning with delivering core feature deliverables."
+    }
+  ],
+  "skillGaps": [
+    {
+      "skill": "Cloud Deployment and CI/CD (e.g., AWS, Docker, GitHub Actions)",
+      "severity": "medium"
+    },
+    {
+      "skill": "Automated Testing (Unit/Integration tests using Jest, Mocha, or React Testing Library)",
+      "severity": "medium"
+    },
+    {
+      "skill": "Git workflow in collaborative team environments (PR reviews, branching strategies)",
+      "severity": "low"
+    }
+  ],
+  "preparationPlan": [
+    {
+      "day": 1,
+      "focus": "Core CS & DSA Revision",
+      "tasks": [
+        "Review key Data Structures: Arrays, HashMaps, Trees, and Graphs",
+        "Practice 4-5 LeetCode medium problems on Sorting, Two Pointers, and Binary Search",
+        "Revise operating system concepts: threads, processes, and concurrency"
+      ]
+    },
+    {
+      "day": 2,
+      "focus": "Backend & API Architecture",
+      "tasks": [
+        "Review Express.js middleware chains, error handling, and RESTful design best practices",
+        "Deep-dive into JWT authentication, cookie flags (Secure, SameSite, HttpOnly), and CORS",
+        "Study MongoDB indexing, aggregation pipelines, and ACID transactions"
+      ]
+    },
+    {
+      "day": 3,
+      "focus": "Frontend & Next.js Deep Dive",
+      "tasks": [
+        "Review React internals: hooks (useEffect, useMemo, useCallback), reconciliation, and Virtual DOM",
+        "Understand Next.js routing, Server Actions, SSR, and SSG trade-offs",
+        "Practice building a responsive UI component using Tailwind CSS"
+      ]
+    },
+    {
+      "day": 4,
+      "focus": "Testing & Deployment Fundamentals",
+      "tasks": [
+        "Write unit tests for an Express controller and a React component using Jest/React Testing Library",
+        "Explore basic deployment procedures on Vercel or Render and containerization with Docker",
+        "Review Git branch management, rebasing, and merge conflicts resolution"
+      ]
+    },
+    {
+      "day": 5,
+      "focus": "Mock Interviews & Behavioral Prep",
+      "tasks": [
+        "Prepare STAR stories for past projects and problem-solving scenarios",
+        "Conduct a 60-minute mock technical interview covering both DSA and system design basics",
+        "Review questions to ask the interviewer regarding engineering culture at TechNova Solutions"
+      ]
+    }
+  ]
+

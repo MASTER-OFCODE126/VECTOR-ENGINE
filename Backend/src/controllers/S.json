@@ -1,0 +1,99 @@
+{
+  _id: new ObjectId('6ad62da8bfb17a23dfabbb69'),
+  jobDescription: 'Job Title: Software Development Engineer Intern\r\n' +
+    '\r\n' +
+    'Company: TechNova Solutions\r\n' +
+    '\r\n' +
+    'Role Overview:\r\n' +
+    'We are looking for a motivated Software Development Engineer Intern\r\n' +
+    'to help design, develop, test, and maintain web applications.\r\n' +
+    '\r\n' +
+    'Responsibilities:\r\n' +
+    '- Develop frontend components using React.js or Next.js.\r\n' +
+    '- Build and maintain backend APIs using Node.js and Express.js.\r\n' +
+    '- Work with MongoDB or other database technologies.\r\n' +
+    '- Write clean, reusable, and maintainable code.\r\n' +
+    '- Solve algorithmic and technical problems.\r\n' +
+    '- Collaborate with engineers to debug and improve application performance.\r\n' +
+    '- Participate in code reviews and technical discussions.\r\n' +
+    '\r\n' +
+    'Required Skills:\r\n' +
+    '- Proficiency in JavaScript and familiarity with C++.\r\n' +
+    '- Understanding of data structures and algorithms.\r\n' +
+    '- Knowledge of REST APIs and database fundamentals.\r\n' +
+    '- Familiarity with React.js, Node.js, and Git.\r\n' +
+    '- Good problem-solving and communication skills.\r\n' +
+    '\r\n' +
+    'Preferred Qualifications:\r\n' +
+    '- Experience building full-stack projects.\r\n' +
+    '- Understanding of authentication and authorization.\r\n' +
+    '- Familiarity with Next.js and cloud deployment.\r\n' +
+    '- A strong willingness to learn and adapt.\r\n' +
+    '\r\n' +
+    'Experience Level: Internship\r\n' +
+    'Location: Hybrid\r\n' +
+    'Duration: 6 months',
+  resume: 'MANISH KUMAR\n' +
+    'Front-end Developer | React & responsive Design\n' +
+    '8630200095 manish456712@gmail.com manish-kumar-902733303 MASTER-OFCODE126\n' +
+    'Agra, INDIA\n' +
+    'PROFESSIONAL SUMMARY\n' +
+    'Results driven Front-End Developer specializing in building responsive, user-centric web applications.\n' +
+    'Proficient in HTML5, CSS3, JavaScript, and React and Tailwind CSS. Strong foundation in modern UI/UX\n' +
+    'principles and a dedicated self-learner with a portfolio of 5+ deployed projects. Committed to delivering clean\n' +
+    'code and meeting client deadlines.\n' +
+    'EDUCATIONS\n' +
+    '|\tDr Bhimrao Ambedkar University Agra\n' +
+    'Bachelor of Engineering in Computer Science Engineering\n' +
+    '2023 - 2027\n' +
+    'CGPA : 7.5\n' +
+    'Relevant Courses: Data Structures, Web Dev\n' +
+    'PROJECTS\n' +
+    '|\tSorting Visualizer\n' +
+    'Developer\n' +
+    'Developed an animated visualizer for Merge, Quick, and Heap Sort algorithms.\n' +
+    'featuring user controls for enhanced interactivity and providing real-time visual feedback.\n' +
+    'Technologies / Tools Used : React, Tailwind CSS\n' +
+    '|\tDesign Presentation\n' +
+    'Developer\n' +
+    'Engineered a sophisticated, multi-page business website, emphasizing premium user experience and\n' +
+    'effective brand storytelling.\n' +
+    'Utilized React and Tailwind CSS for development.\n' +
+    'Technologies / Tools Used : React, Tailwind CSS\n' +
+    '|\tPass SX - Encrypted Password & Card Manager\n' +
+    'Individual Project\n' +
+    'Developed a server-side AES-256 encrypted password and credit card manager using Next.js, Clerk, and\n' +
+    'TypeScript.\n' +
+    'Implemented secure metadata storage, full CRUD operations, and automated production deployments on\n' +
+    'Vercel.\n' +
+    'Technologies / Tools Used : Next.js, Clerk, Tailwind\n' +
+    'SKILLS\n' +
+    'Databases : \tMongoDB\n' +
+    'Frameworks & Libraries : React.js, Next.js, Express.js\n' +
+    'Programming Languages : JavaScript, HTML5, CSS3\n' +
+    'Soft Skills : \tProblem Solving\n' +
+    'Tools & Platforms : \tGit, GitHub, Vercel\n' +
+    '\n' +
+    '-- 1 of 1 --\n' +
+    '\n',
+  selfDescription: 'I am a computer science student passionate about software engineering\r\n' +
+    'and building practical web applications. I have experience with C++,\r\n' +
+    'data structures and algorithms, React, Next.js, Node.js, and MongoDB.\r\n' +
+    '\r\n' +
+    'I enjoy solving programming problems and understanding how systems\r\n' +
+    'work internally. I am currently looking for a software engineering\r\n' +
+    'internship where I can contribute to real-world projects, improve\r\n' +
+    'my problem-solving skills, and learn from experienced engineers.\r\n' +
+    '\r\n' +
+    'My strengths include analytical thinking, persistence, and a willingness\r\n' +
+    'to learn new technologies. I am working toward writing clean, maintainable\r\n' +
+    'code and building scalable applications.\r\n',
+  user: [ new ObjectId('6ad0b460d3422fc4224fe901') ],
+  technicalQuestions: [],
+  behaviouralQuestions: [],
+  skillgaps: [],
+  preparationPlan: [],
+  createdAt: 2026-10-19T14:48:08.411Z,
+  updatedAt: 2026-10-19T14:48:08.411Z,
+  __v: 0
+}
