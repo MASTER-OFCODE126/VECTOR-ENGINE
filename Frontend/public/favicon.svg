@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="100%" height="100%">
+  <!-- Zero-Radius Brutalist Dark Slate Base -->
+  <rect x="0" y="0" width="64" height="64" fill="#020617" stroke="#1E293B" stroke-width="4" />
+  
+  <!-- Aggressive Crimson Corner Hazard Accent -->
+  <polygon points="46,0 64,0 64,18" fill="#E11D48" />
+
+  <!-- Cyber Cyan Terminal Frame -->
+  <rect x="12" y="12" width="40" height="40" fill="#020617" stroke="#06B6D4" stroke-width="4" />
+
+  <!-- Industrial Corner Bracket Slices (Cyan) -->
+  <polyline points="20,8 8,8 8,20" fill="none" stroke="#06B6D4" stroke-width="4" />
+  <polyline points="44,56 56,56 56,44" fill="none" stroke="#06B6D4" stroke-width="4" />
+
+  <!-- Solid Core Data Processor Matrix -->
+  <rect x="22" y="22" width="20" height="20" fill="#06B6D4" />
+  <rect x="28" y="28" width="8" height="8" fill="#020617" />
+</svg>
