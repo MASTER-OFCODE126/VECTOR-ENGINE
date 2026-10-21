@@ -13,6 +13,7 @@ app.use(cors({
     credentials:true
 }))
 
+
 /* require all the routes Here*/
 const authRouter = require('./routes/auth.route')
 const interviewRouter = require('./routes/interview.routes')
@@ -21,5 +22,8 @@ const interviewRouter = require('./routes/interview.routes')
 app.use('/api/auth',authRouter);
 app.use('/api/interview',interviewRouter)
 
+app.get('/', (req, res) => {
+  res.status(200).json({ status: 'GEN-AI Core Tactical Engine Backend Online' });
+});
 
 module.exports = app;
